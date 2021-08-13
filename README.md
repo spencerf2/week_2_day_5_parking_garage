@@ -23,7 +23,7 @@ Your parking gargage class should have the following methods:
    - Display an input that waits for an amount from the user and store it in a variable
    - If the payment variable is not empty then (meaning the ticket has been paid) ->  display a message to the user that their ticket has been paid and they have 15mins to leave
    - This should update the "currentTicket" dictionary key "paid" to True
--leaveGarage
+- leaveGarage
    - If the ticket has been paid, display a message of "Thank You, have a nice day"
    - If the ticket has not been paid, display an input prompt for payment
       - Once paid, display message "Thank you, have a nice day!"
@@ -42,3 +42,7 @@ When the project is completed, commit the final changes, sync all pull requests,
 
 ###### List group responsiblities below:
 ###### Provide name and approxamite line numbers where each person wrote their code
+
+Spencer - Original driver, master git repo owner, creator of the main structure and take_tickets method lines 20-34
+Paris - Second driver, creator of the pay for parking method lines 40-57
+Stephen - Third driver, creator of while loop and leave_garage method lines 61-74
